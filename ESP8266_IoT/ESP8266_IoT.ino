@@ -14,7 +14,7 @@
 int8_t timeZone = 5;
 int8_t minutesTimeZone = 30;
 const PROGMEM char *ntpServer = "pool.ntp.org";
-boolean syncEventTriggered = faprocessSyncEventlse; // True if a time even has been triggered
+boolean syncEventTriggered = false; // True if a time even has been triggered
 NTPSyncEvent_t ntpEvent; // Last triggered event
 
 //WiFi Credentials
